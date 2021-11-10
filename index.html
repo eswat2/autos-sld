@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
+    <title>Solid App 0.0.4</title>
+    <script>
+      var script_tag = document.createElement('script');
+      script_tag.setAttribute('type', 'module');
+      script_tag.setAttribute(
+        'src',
+        'https://unpkg.com/proto-ikon-loader-wc@0.0.4/dist/proto-ikon-loader-wc/proto-ikon-loader-wc.esm.js',
+      );
+      document.head.appendChild(script_tag);
+
+      window.protoIkonFallback = 'pulse-icon';
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script src="/src/index.jsx" type="module"></script>
+  </body>
+</html>
