@@ -16,8 +16,8 @@ else
   echo $VERSION > .version
   sed "s/VERSION/$VERSION/g" <.template.html >index.html
 
-  # git commit -a -m "bump $VERSION"
-  # git push
-  # yarn deploy
-  # git push
+  git commit -a -m "bump $VERSION"
+  git push
+  yarn deploy
+  git push
 fi
