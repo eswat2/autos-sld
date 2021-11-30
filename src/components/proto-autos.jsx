@@ -39,7 +39,7 @@ const ProtoAutos = props => {
         when={!state.loading}
         fallback={
           <svg
-            class="animate-spin h-[24px] w-[24px] text-clrs-navy"
+            class="animate-spin h-24px w-24px text-clrs-navy"
             fill="none"
             viewBox="0 0 24 24"
             role="img"
