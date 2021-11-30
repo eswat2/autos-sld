@@ -1,4 +1,4 @@
-import './vehicle-card.css'
+import './vehicle-card.css';
 import { tw } from '../utils';
 
 const dict = {
