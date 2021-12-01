@@ -21,7 +21,7 @@
     "autoprefixer": "10.4.0",
     "fetchql": "3.0.0",
     "postcss": "8.4.4",
-    "proto-tailwindcss-clrs": "0.0.69",
+    "proto-tailwindcss-clrs": "0.0.70",
     "tailwindcss": "2.2.19",
     "vite": "2.6.14",
     "vite-plugin-solid": "2.1.2"
