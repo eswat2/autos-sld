@@ -1,5 +1,6 @@
 import { onMount, Show } from 'solid-js';
-import { Eswat2Io, Spinner, ToolBar, Footer, DealerView } from '.';
+import { Eswat2Io, ToolBar, Footer, DealerView } from '.';
+import { Spinner } from '../icons';
 import { actions, state, tw } from '../utils';
 
 const ProtoAutos = props => {
