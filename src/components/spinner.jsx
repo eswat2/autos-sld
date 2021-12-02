@@ -3,10 +3,13 @@ import { tw } from '../utils';
 const Spinner = props => {
   const klass = props.class || '';
   const label = props.label || 'loading';
+  const size = props.size || 24;
 
   return (
     <svg
-      class={tw(klass, 'animate-spin h-24px w-24px text-clrs-navy')}
+      class={tw(klass, 'animate-spin text-clrs-navy')}
+      width={size}
+      height={size}
       fill="none"
       viewBox="0 0 24 24"
       role="img"

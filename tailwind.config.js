@@ -7,13 +7,7 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   purge: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-  theme: {
-    extend: {
-      spacing: {
-        '24px': '24px',
-      },
-    },
-  },
+  theme: {},
   variants: {},
   plugins: [
     tw_clrs({
