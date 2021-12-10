@@ -1,4 +1,4 @@
-const TW_VERSION = '2.2.19';
+const TW_VERSION = '3.0.0';
 
 const TwLabel = version => {
   return (
