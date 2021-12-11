@@ -8,7 +8,7 @@ const Spinner = props => {
 
   return (
     <svg
-      class={tw(klass, 'animate-spin text-clrs-navy')}
+      class={tw(klass, 'animate-spin')}
       width={size}
       height={size}
       fill="none"
