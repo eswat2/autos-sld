@@ -415,9 +415,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001272, caniuse-lite@^1.0.30001286:
-  version "1.0.30001286"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001286.tgz#3e9debad420419618cfdf52dc9b6572b28a8fff6"
-  integrity sha512-zaEMRH6xg8ESMi2eQ3R4eZ5qw/hJiVsO/HlLwniIwErij0JDr9P+8V4dtx1l+kLq6j3yy8l8W4fst1lBnat5wQ==
+  version "1.0.30001287"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001287.tgz#5fab6a46ab9e47146d5dd35abfe47beaf8073c71"
+  integrity sha512-4udbs9bc0hfNrcje++AxBuc6PfLNHwh3PO9kbwnfCQWyqtlzg3py0YgFu8jyRTTo85VAz4U+VLxSlID09vNtWA==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -535,9 +535,9 @@ dlv@^1.1.3:
   integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
 
 electron-to-chromium@^1.4.17:
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.18.tgz#2fb282213937986a20a653315963070e8321b3f3"
-  integrity sha512-i7nKjGGBE1+YUIbfLObA1EZPmN7J1ITEllbhusDk+KIk6V6gUxN9PFe36v+Sd+8Cg0k3cgUv9lQhQZalr8rggw==
+  version "1.4.20"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.20.tgz#8fbf9677ccac19b4249c0a6204e0943d9d66ce30"
+  integrity sha512-N7ZVNrdzX8NE90OXEFBMsBf3fp8P/vVDUER3WCUZjzC7OkNTXHVoF6W9qVhq8+dA8tGnbDajzUpj2ISNVVyj+Q==
 
 error-ex@^1.3.1:
   version "1.3.2"
@@ -1120,9 +1120,9 @@ solid-js@1.2.6, solid-js@^1.2.6:
   integrity sha512-NvPHJ5Vj5f+ZJWIioickrC55seovSkDtm5NzSpnoUk3z4tATv0STpy5iuGNEn51ZORUcwpZzrMAtOCGziXU1XA==
 
 solid-refresh@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/solid-refresh/-/solid-refresh-0.3.2.tgz#feb0a1a4ebb2b2e8467f6b7fbd5de940e1f4c0f0"
-  integrity sha512-7lg3EjenGoxQvGoZnTD3d480wBxbpAiAsyk0dhoGq6hjcaAQ3vnsBGxvXV0LBTzeQcGmIRz1GeSsw/64YyNr+g==
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/solid-refresh/-/solid-refresh-0.3.3.tgz#3cf3c12b6e4c5e0382a14b11e8e030716f3b6732"
+  integrity sha512-8Xi828ErNGAp7FmNNfJTBKy+LdMxnJ1LAAh8CgtPhtaVMBlmppzvD4YSR6UHm8sNsoO5rwTwAl5uHfKsWFFDPA==
   dependencies:
     "@babel/generator" "^7.16.0"
     "@babel/helper-module-imports" "^7.16.0"
@@ -1221,10 +1221,10 @@ vite-plugin-solid@2.1.4:
     solid-refresh "^0.3.2"
     vite "^2.7.1"
 
-vite@2.7.2, vite@^2.7.1:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.2.tgz#f9937114cf2e730a7e2e4c4f8c26ed0ed1c3bb6b"
-  integrity sha512-wMffVVdKZRZP/HwW3yttKL8X+IJePz7bUcnGm0vqljffpVwHpjWC3duZtJQHAGvy+wrTjmwU7vkULpZ1dVXY6w==
+vite@2.7.3, vite@^2.7.1:
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.3.tgz#e983cf4f71f42c192436bfcad1b75932642da293"
+  integrity sha512-GAY1P+9fLJOju1SRm8+hykVnEXog+E+KXuqqyMBQDriKCUIKzWnPn142yNNhSdf/ixYGYdUa5ce3A8WaEajzGw==
   dependencies:
     esbuild "^0.13.12"
     postcss "^8.3.11"
