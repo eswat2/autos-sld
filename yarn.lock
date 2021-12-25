@@ -535,9 +535,9 @@ dlv@^1.1.3:
   integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
 
 electron-to-chromium@^1.4.17:
-  version "1.4.26"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.26.tgz#d71b9da220543cf10614a576c3d5ebbe43d96efb"
-  integrity sha512-cA1YwlRzO6TGp7yd3+KAqh9Tt6Z4CuuKqsAJP6uF/H5MQryjAGDhMhnY5cEXo8MaRCczpzSBhMPdqRIodkbZYw==
+  version "1.4.28"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.28.tgz#fef0e92e281df6d568f482d8d53c34ca5374de48"
+  integrity sha512-Gzbf0wUtKfyPaqf0Plz+Ctinf9eQIzxEqBHwSvbGfeOm9GMNdLxyu1dNiCUfM+x6r4BE0xUJNh3Nmg9gfAtTmg==
 
 error-ex@^1.3.1:
   version "1.3.2"
@@ -1038,10 +1038,10 @@ postcss@8.4.5, postcss@^8.1.6, postcss@^8.4.5:
     picocolors "^1.0.0"
     source-map-js "^1.0.1"
 
-proto-tailwindcss-clrs@0.0.79:
-  version "0.0.79"
-  resolved "https://registry.yarnpkg.com/proto-tailwindcss-clrs/-/proto-tailwindcss-clrs-0.0.79.tgz#5df9bc6c0e17a0793ca43e4c0702a1a08605de5a"
-  integrity sha512-2COcBHSm7MnDgcFOizzkb4pFbAy7E18cZwMwXWtFegtAVQcpYw0EXDwKyFWfhbNm6pClMyPASg7SP3Fx2ZDHRw==
+proto-tailwindcss-clrs@0.0.80:
+  version "0.0.80"
+  resolved "https://registry.yarnpkg.com/proto-tailwindcss-clrs/-/proto-tailwindcss-clrs-0.0.80.tgz#2f100be43e958ad727d838136e72e44bdb67b695"
+  integrity sha512-N1G+EKmfYXHqNdftBaKdtXkMcbAFKOZSfqO/9nu0lRepGQnilb0pN3tXWaC/7S2beBasww8XGQFVawksj/rWpg==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -1091,9 +1091,9 @@ rimraf@^3.0.0:
     glob "^7.1.3"
 
 rollup@^2.59.0:
-  version "2.61.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.61.1.tgz#1a5491f84543cf9e4caf6c61222d9a3f8f2ba454"
-  integrity sha512-BbTXlEvB8d+XFbK/7E5doIcRtxWPRiqr0eb5vQ0+2paMM04Ye4PZY5nHOQef2ix24l/L0SpLd5hwcH15QHPdvA==
+  version "2.62.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.62.0.tgz#9e640b419fc5b9e0241844f6d55258bd79986ecc"
+  integrity sha512-cJEQq2gwB0GWMD3rYImefQTSjrPYaC6s4J9pYqnstVLJ1CHa/aZNVkD4Epuvg4iLeMA4KRiq7UM7awKK6j7jcw==
   optionalDependencies:
     fsevents "~2.3.2"
 
