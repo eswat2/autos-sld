@@ -1038,10 +1038,10 @@ postcss@8.4.5, postcss@^8.1.6, postcss@^8.4.5:
     picocolors "^1.0.0"
     source-map-js "^1.0.1"
 
-proto-tailwindcss-clrs@0.0.80:
-  version "0.0.80"
-  resolved "https://registry.yarnpkg.com/proto-tailwindcss-clrs/-/proto-tailwindcss-clrs-0.0.80.tgz#2f100be43e958ad727d838136e72e44bdb67b695"
-  integrity sha512-N1G+EKmfYXHqNdftBaKdtXkMcbAFKOZSfqO/9nu0lRepGQnilb0pN3tXWaC/7S2beBasww8XGQFVawksj/rWpg==
+proto-tailwindcss-clrs@0.0.81:
+  version "0.0.81"
+  resolved "https://registry.yarnpkg.com/proto-tailwindcss-clrs/-/proto-tailwindcss-clrs-0.0.81.tgz#21960e0b2564c1e59080d4a66cd7faa118fb8620"
+  integrity sha512-hW/cjlRkJhGW/6jRH26+EY2HukS+2/6pihmQLYYemiSdQXq5ZplC5FgK46Pf9vI/Vj8i71IE5atxtUsILu44UQ==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
