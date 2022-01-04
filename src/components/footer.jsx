@@ -1,4 +1,4 @@
-const TW_VERSION = '3.0.9';
+import { TW_VERSION } from '../utils';
 
 const TwLabel = version => {
   return (

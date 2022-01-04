@@ -1,5 +1,5 @@
 #!/bin/bash
-COMPONENT=funnel-sld
+COMPONENT=autos-sld
 INPUT=./src/styles/input.pcss
 OUTPUT=./src/styles/app.css
 
