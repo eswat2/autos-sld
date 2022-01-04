@@ -3,9 +3,10 @@
   "version": "0.0.66",
   "description": "",
   "scripts": {
+    "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
+    "twx": "sh ./.generate",
     "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
+    "build": "yarn twx; yarn format; vite build",
     "serve": "vite preview",
     "spell": "cspell *.{html,json,js,md,ts} src/*.{css,tsx}",
     "cc": "prettier --check src",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.1",
+    "concurrently": "7.0.0",
     "fetchql": "3.0.0",
     "postcss": "8.4.5",
     "proto-tailwindcss-clrs": "0.0.84",
