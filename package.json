@@ -23,8 +23,8 @@
     "concurrently": "7.0.0",
     "fetchql": "3.0.0",
     "postcss": "8.4.5",
-    "proto-tailwindcss-clrs": "0.0.84",
-    "tailwindcss": "3.0.9",
+    "proto-tailwindcss-clrs": "0.0.85",
+    "tailwindcss": "3.0.10",
     "vite": "2.7.10",
     "vite-plugin-solid": "2.2.0"
   },
