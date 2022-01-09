@@ -1,6 +1,7 @@
 export * from './dealer-card';
 export * from './dealer-view';
 export * from './eswat2-io';
+export * from './header';
 export * from './footer';
 export * from './proto-autos';
 export * from './tool-bar';

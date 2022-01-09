@@ -1,5 +1,5 @@
 import { onMount, Show } from 'solid-js';
-import { Eswat2Io, ToolBar, Footer, DealerView } from '.';
+import { Eswat2Io, Header, ToolBar, Footer, DealerView } from '.';
 import { Spinner } from '../icons';
 import { actions, state, tw } from '../utils';
 
@@ -11,15 +11,7 @@ const ProtoAutos = props => {
   return (
     <main id="app" class="ds1-main">
       <Eswat2Io />
-      <h1
-        class={tw(
-          'uppercase text-center text-clrs-red',
-          'mr-0 ml-0 mt-11 mb-11',
-          'font-thin text-6xl',
-        )}
-      >
-        Auto Dealers
-      </h1>
+      <Header title="Auto Dealers" />
       <ToolBar />
       <Show when={!state.loading} fallback={<Spinner />}>
         <hr
