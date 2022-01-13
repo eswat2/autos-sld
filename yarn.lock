@@ -414,9 +414,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001286, caniuse-lite@^1.0.30001297:
-  version "1.0.30001298"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001298.tgz#0e690039f62e91c3ea581673d716890512e7ec52"
-  integrity sha512-AcKqikjMLlvghZL/vfTHorlQsLDhGRalYf1+GmWCf5SCMziSGjRYQW/JEksj14NaYHIR6KIhrFAy0HV5C25UzQ==
+  version "1.0.30001299"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001299.tgz#d753bf6444ed401eb503cbbe17aa3e1451b5a68c"
+  integrity sha512-iujN4+x7QzqA2NCSrS5VUy+4gLmRd4xv6vbBBsmfVqTx8bLAD8097euLqQgKxSVLvxjSDcvF1T/i9ocgnUFexw==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -557,9 +557,9 @@ dlv@^1.1.3:
   integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
 
 electron-to-chromium@^1.4.17:
-  version "1.4.40"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.40.tgz#f5dbced7bfbc7072e5e7ca5487f8f9a42c8bc768"
-  integrity sha512-j+eVIyQGt2EU5xPWUblhpp5P5z5xyAdRgzogBgfe2F5JGV17gr9pfzWBua6DlPL00LavbOjxubWkWkbVQe9Wlw==
+  version "1.4.44"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.44.tgz#8a41923afdd6ef5ddabe001626036ba5d1d64ae6"
+  integrity sha512-tHGWiUUmY7GABK8+DNcr474cnZDTzD8x1736SlDosVH8+/vRJeqfaIBAEHFtMjddz/0T4rKKYsxEc8BwQRdBpw==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -910,9 +910,9 @@ ms@2.1.2:
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 nanoid@^3.1.30:
-  version "3.1.31"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.31.tgz#f5b58a1ce1b7604da5f0605757840598d8974dc6"
-  integrity sha512-ZivnJm0o9bb13p2Ot5CpgC2rQdzB9Uxm/mFZweqm5eMViqOJe3PV6LU2E30SiLgheesmcPrjquqraoolONSA0A==
+  version "3.1.32"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.32.tgz#8f96069e6239cc0a9ae8c0d3b41a3b4933a88c0a"
+  integrity sha512-F8mf7R3iT9bvThBoW4tGXhXFHCctyCiUUPrWF8WaTqa3h96d9QybkSeba43XVOOE3oiLfkVDe4bT8MeGmkrTxw==
 
 node-releases@^2.0.1:
   version "2.0.1"
@@ -1092,10 +1092,10 @@ semver@^6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-solid-js@1.3.2, solid-js@^1.3.0:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.3.2.tgz#bdc99e0e33f3e8d0749f9317c337b1954be9c976"
-  integrity sha512-BIY63BeKO4vCRqoj/PRcVkt90gnbIg4HhCYqZwsQdwsrFXiqhCycvyqZ1YDBIO8INJdxX5XNLZprmyrt9Mn5IA==
+solid-js@1.3.3, solid-js@^1.3.0:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.3.3.tgz#e60a6c5ed29f216e0484673967788f4f174c5f89"
+  integrity sha512-0pyHpLZIgQDI1Z+MgxXQRPY10dhXfKJdptb4UCJQ9ArQOLq2gtFA1acEsvSAtPMVdqQ8bqj68FOTXLpz6hm2Mg==
 
 solid-refresh@^0.4.0:
   version "0.4.0"
@@ -1221,10 +1221,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite-plugin-solid@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.2.1.tgz#bf8d5d1f0d2b5929a6a3f2f6fe09d90d0fcf8a8a"
-  integrity sha512-iyat83wK4sgcRqWLRHoVufwjONZiPAIK/4micEWQEm54ArvF4dAHrdne5C7BJ14k71vapoB1pNryS78wL4UE2Q==
+vite-plugin-solid@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.2.2.tgz#7dfd9fed6a4f0ad9a6b9aba5ee2fafcb1b8ea543"
+  integrity sha512-9Um49U4L7FwZuB1dNRjY+5fhzIBGeYTJuF8eQxx1PZ8R0dnU1vGAswwDexn1OrfoyFDeS9PCBjLtE9VTkbPqYA==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/preset-typescript" "^7.16.7"
@@ -1234,10 +1234,10 @@ vite-plugin-solid@2.2.1:
     solid-refresh "^0.4.0"
     vite "^2.7.10"
 
-vite@2.7.10, vite@^2.7.10:
-  version "2.7.10"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.10.tgz#d12c4c10e56a0ecf7890cb529c15996c6111218f"
-  integrity sha512-KEY96ntXUid1/xJihJbgmLZx7QSC2D4Tui0FdS0Old5OokYzFclcofhtxtjDdGOk/fFpPbHv9yw88+rB93Tb8w==
+vite@2.7.11, vite@^2.7.10:
+  version "2.7.11"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.11.tgz#b3caca377c202db887afda16b85b0ab111146bd9"
+  integrity sha512-W1OVwJmtuxnzt9HwZ1AebVLgvsgNpe4TK/sxvF+1x2y8MRnTEHvaPqxy9A67IYb5BR0Q+nENmLYa3QfESmp5GQ==
   dependencies:
     esbuild "^0.13.12"
     postcss "^8.4.5"
