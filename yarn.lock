@@ -910,9 +910,9 @@ ms@2.1.2:
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 nanoid@^3.1.30:
-  version "3.1.32"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.32.tgz#8f96069e6239cc0a9ae8c0d3b41a3b4933a88c0a"
-  integrity sha512-F8mf7R3iT9bvThBoW4tGXhXFHCctyCiUUPrWF8WaTqa3h96d9QybkSeba43XVOOE3oiLfkVDe4bT8MeGmkrTxw==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.2.0.tgz#62667522da6673971cca916a6d3eff3f415ff80c"
+  integrity sha512-fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==
 
 node-releases@^2.0.1:
   version "2.0.1"
@@ -1221,10 +1221,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite-plugin-solid@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.2.2.tgz#7dfd9fed6a4f0ad9a6b9aba5ee2fafcb1b8ea543"
-  integrity sha512-9Um49U4L7FwZuB1dNRjY+5fhzIBGeYTJuF8eQxx1PZ8R0dnU1vGAswwDexn1OrfoyFDeS9PCBjLtE9VTkbPqYA==
+vite-plugin-solid@2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.2.3.tgz#2196ebd56e1876789fe6f962cf45b2bd093ea5f6"
+  integrity sha512-O20Gd59ZFTEfhlBFkzCvhqINQ0mZsgeSPL5fwCs7hqwSsHUhrycbfMWDM8pCtiE4FOFU+PLM6wVEQFDwDtk91w==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/preset-typescript" "^7.16.7"
