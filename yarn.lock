@@ -1221,10 +1221,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite-plugin-solid@2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.2.3.tgz#2196ebd56e1876789fe6f962cf45b2bd093ea5f6"
-  integrity sha512-O20Gd59ZFTEfhlBFkzCvhqINQ0mZsgeSPL5fwCs7hqwSsHUhrycbfMWDM8pCtiE4FOFU+PLM6wVEQFDwDtk91w==
+vite-plugin-solid@2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-solid/-/vite-plugin-solid-2.2.4.tgz#181fe83d0755270c62b556032682cdfa5cfbb460"
+  integrity sha512-JMYc8SOZFnAU30x7UzFnMpNG+x92WOaKHwnKYg0LZPrLJGvE2k1Xh01GtvAG5cdqZTjpczCCpKtsEjz1t4JtgQ==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/preset-typescript" "^7.16.7"
@@ -1232,9 +1232,9 @@ vite-plugin-solid@2.2.3:
     merge-anything "^4.0.2"
     solid-js "^1.3.0"
     solid-refresh "^0.4.0"
-    vite "^2.7.10"
+    vite "^2.7.13"
 
-vite@2.7.13, vite@^2.7.10:
+vite@2.7.13, vite@^2.7.13:
   version "2.7.13"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.13.tgz#99b56e27dfb1e4399e407cf94648f5c7fb9d77f5"
   integrity sha512-Mq8et7f3aK0SgSxjDNfOAimZGW9XryfHRa/uV0jseQSilg+KhYDSoNb9h1rknOy6SuMkvNDLKCYAYYUMCE+IgQ==
