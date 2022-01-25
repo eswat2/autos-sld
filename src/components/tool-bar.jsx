@@ -6,14 +6,14 @@ const ToolBar = props => {
     <Show when={!state.loading} fallback={''}>
       <div class="flex">
         <div
-          class="refresh md:w-auto hover:text-clrs-red"
+          class="refresh hover:text-clrs-red md:w-auto"
           onClick={() => actions.refresh()}
         >
           <proto-ikon-loader name="refresh" size="24" />
         </div>
         <div
           class={tw(
-            'inline-flex justify-end ml-auto',
+            'ml-auto inline-flex justify-end',
             'border border-solid border-gray-600',
             'rounded-md',
           )}
@@ -22,15 +22,15 @@ const ToolBar = props => {
             {(item, index) => (
               <button
                 class={tw(
-                  'border-none w-8 h-8 font-bold',
+                  'h-8 w-8 border-none font-bold',
                   index() == 0
                     ? 'rounded-tl-md rounded-bl-md rounded-tr-none rounded-br-none'
                     : index() == state.list.length - 1
                     ? 'rounded-tl-none rounded-bl-none rounded-tr-md rounded-br-md'
                     : 'rounded-none',
                   state.pick == index()
-                    ? 'text-white bg-clrs-red'
-                    : 'text-clrs-navy bg-clrs-yellow',
+                    ? 'bg-clrs-red text-white'
+                    : 'bg-clrs-yellow text-clrs-navy',
                 )}
                 onClick={() => actions.updatePick(index())}
                 title={`${item.name} (${item.vehicles.length})`}

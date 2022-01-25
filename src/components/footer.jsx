@@ -9,7 +9,7 @@ const TwLabel = version => {
 };
 
 const Footer = props => {
-  return <div class="flex flex-row mt-2 mb-4 mr-2">{TwLabel(TW_VERSION)}</div>;
+  return <div class="mt-2 mb-4 mr-2 flex flex-row">{TwLabel(TW_VERSION)}</div>;
 };
 
 export { Footer };

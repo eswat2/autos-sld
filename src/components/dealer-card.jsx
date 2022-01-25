@@ -2,7 +2,7 @@ import { Show } from 'solid-js';
 
 const DealerCard = props => {
   return (
-    <div class="flex flex-wrap content-center bg-blue-200 rounded-lg p-4 mb-4 border border-solid border-blue-400">
+    <div class="mb-4 flex flex-wrap content-center rounded-lg border border-solid border-blue-400 bg-blue-200 p-4">
       <Show when={props.dealer && props.dealer.name} fallback={''}>
         <label class="text-xl font-bold">
           {props.dealer.name}
@@ -15,7 +15,7 @@ const DealerCard = props => {
         </label>
       </Show>
       <Show when={props.dealer.dealerId} fallback={''}>
-        <label class="text-sm text-right ml-auto self-center">
+        <label class="ml-auto self-center text-right text-sm">
           {props.dealer.dealerId}
         </label>
       </Show>
