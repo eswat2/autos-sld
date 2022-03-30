@@ -27,7 +27,7 @@
     "prettier-plugin-tailwindcss": "0.1.8",
     "proto-tailwindcss-clrs": "0.0.118",
     "tailwindcss": "3.0.23",
-    "vite": "2.8.6",
+    "vite": "2.9.0",
     "vite-plugin-solid": "2.2.6"
   },
   "license": "MIT"
