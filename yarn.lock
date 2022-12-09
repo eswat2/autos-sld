@@ -1040,10 +1040,10 @@ prettier@2.8.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.1.tgz#4e1fd11c34e2421bc1da9aea9bd8127cd0a35efc"
   integrity sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==
 
-proto-tailwindcss-clrs@0.0.192:
-  version "0.0.192"
-  resolved "https://registry.yarnpkg.com/proto-tailwindcss-clrs/-/proto-tailwindcss-clrs-0.0.192.tgz#ff082a3c7efdc19bb216103c8369b9a69c2139b7"
-  integrity sha512-MLkdLMbl6mdJn9aNMAI6a3wVkDWKvmHUJEm3QejzXfAQBWzt2F4ENjH+Gsy8svRhSOyUQhU8Ch4EsruWL7viDg==
+proto-tailwindcss-clrs@0.0.193:
+  version "0.0.193"
+  resolved "https://registry.yarnpkg.com/proto-tailwindcss-clrs/-/proto-tailwindcss-clrs-0.0.193.tgz#ec6a67402c0d3dcb99981691e5776ad4d281c2cf"
+  integrity sha512-UAKIZtQv5QQASyKwmPfgwbvHEZQqnICKp+9yu3iIMyg8V7Bo9dv2rV1mdIkysjgJFday9v/vvn6BDuo1mr4F5g==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -1089,9 +1089,9 @@ reusify@^1.0.4:
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
 rollup@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.7.0.tgz#7c4310378cf28764abb6b7611c9ccec081ff6d97"
-  integrity sha512-FIJe0msW9P7L9BTfvaJyvn1U1BVCNTL3w8O+PKIrCyiMLg+rIUGb4MbcgVZ10Lnm1uWXOTOWRNARjfXC1+M12Q==
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.7.1.tgz#615b736bdc6ad405953d269fc6afd3822d6d8811"
+  integrity sha512-ek6+FORvI79VQTNlIYtXpIrGEPRlYSNZO+5EcmaozKkRL5L6KLvGDUbM5E+bd6jnHW9fgcK0DKTdWjIsEmNb4g==
   optionalDependencies:
     fsevents "~2.3.2"
 
