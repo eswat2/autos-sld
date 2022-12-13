@@ -938,9 +938,9 @@ nanoid@^3.3.4:
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
 
 node-releases@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.6.tgz#8a7088c63a55e493845683ebf3c828d8c51c5503"
-  integrity sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.7.tgz#593edbc7c22860ee4d32d3933cfebdfab0c0e0e5"
+  integrity sha512-EJ3rzxL9pTWPjk5arA0s0dgXpnyiAbJDE6wHT62g7VsgrgQgmmZ+Ru++M1BFofncWja+Pnn3rEr3fieRySAdKQ==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
@@ -1040,10 +1040,10 @@ prettier@2.8.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.1.tgz#4e1fd11c34e2421bc1da9aea9bd8127cd0a35efc"
   integrity sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==
 
-proto-tailwindcss-clrs@0.0.195:
-  version "0.0.195"
-  resolved "https://registry.yarnpkg.com/proto-tailwindcss-clrs/-/proto-tailwindcss-clrs-0.0.195.tgz#ea9595b877e3944616ca4272706527d3cef044e5"
-  integrity sha512-PwQBkori8I9VxDqADz9ySzQM2KdlkgqN7HbwJiIbEIXnfVinaZA4BUWpfSpXKFaWT3C3W+Ub5Ecw2yrCxf0yJQ==
+proto-tailwindcss-clrs@0.0.196:
+  version "0.0.196"
+  resolved "https://registry.yarnpkg.com/proto-tailwindcss-clrs/-/proto-tailwindcss-clrs-0.0.196.tgz#d09107d232b3e44832f345994b0dfb479ca31a80"
+  integrity sha512-SBJxj0+M7w9Ydm55Wu3i5896NIkVVAl1yHSfLmpkM0VogMljynbiha79cnP0Vp5jqCq7Z3PrbNMbXoxhIdD5+w==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -1089,9 +1089,9 @@ reusify@^1.0.4:
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
 rollup@^3.7.0:
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.7.3.tgz#d440adff5f89099fd1f552e4e4333045e3bc71d4"
-  integrity sha512-7e68MQbAWCX6mI4/0lG1WHd+NdNAlVamg0Zkd+8LZ/oXojligdGnCNyHlzXqXCZObyjs5FRc3AH0b17iJESGIQ==
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.7.4.tgz#993c3b30eff1df96f5eafb7c2ef7648960f2fa34"
+  integrity sha512-jN9rx3k5pfg9H9al0r0y1EYKSeiRANZRYX32SuNXAnKzh6cVyf4LZVto1KAuDnbHT03E1CpsgqDKaqQ8FZtgxw==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -1119,10 +1119,10 @@ shell-quote@^1.7.3:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.4.tgz#33fe15dee71ab2a81fcbd3a52106c5cfb9fb75d8"
   integrity sha512-8o/QEhSSRb1a5i7TFR0iM4G16Z0vYB2OQVs4G3aAFXjn3T6yEx8AZxy1PgDF7I00LZHYA3WxaSYIf5e5sAX8Rw==
 
-solid-js@1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.6.4.tgz#6baf96941d78a35f0a4ace6cb4ff9b29498e90b5"
-  integrity sha512-IfJJ1ejAcRTOEB0XXk/J8tzvVNZXAdEuHtWQwTXefUteZPGWOl4aVSOrkoj3y1bjwDayqok3+Vv3TV/j4IhKyw==
+solid-js@1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.6.5.tgz#19d92bce93a576124ea36af012c472d17516f4b4"
+  integrity sha512-q1/wIIRmrWltNnP3PW/e29eRWCC24hX5amBiOXomw2kDiM6JZZ10l+chK/Oi/6ipwUxeabYl5YD2lJOObY9heA==
   dependencies:
     csstype "^3.1.0"
 
