@@ -1,6 +1,6 @@
 {
   "name": "autos-sld",
-  "version": "0.0.440",
+  "version": "0.0.441",
   "description": "",
   "scripts": {
     "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
