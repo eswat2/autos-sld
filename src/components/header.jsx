@@ -5,7 +5,7 @@ const Header = props => {
     <h1
       class={tw(
         'text-center uppercase text-clrs-red',
-        'mr-0 ml-0 mt-11 mb-11',
+        'mb-11 ml-0 mr-0 mt-11',
         'text-6xl font-thin',
       )}
     >

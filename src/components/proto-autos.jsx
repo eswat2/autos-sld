@@ -16,9 +16,9 @@ const ProtoAutos = props => {
       <Show when={!state.loading} fallback={<Spinner />}>
         <hr
           class={tw(
-            'ml-0 mr-0 mt-4 mb-4',
+            'mb-4 ml-0 mr-0 mt-4',
             'border-solid border-gray-300',
-            'border-r-0 border-b-0 border-l-0',
+            'border-b-0 border-l-0 border-r-0',
           )}
         />
       </Show>
