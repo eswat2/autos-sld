@@ -16,7 +16,7 @@
     "open": "open https://autos-sld.vercel.app"
   },
   "dependencies": {
-    "solid-js": "1.7.1"
+    "solid-js": "1.7.2"
   },
   "devDependencies": {
     "autoprefixer": "10.4.14",
