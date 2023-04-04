@@ -11,7 +11,7 @@ const ProtoAutos = props => {
   return (
     <main id="app" class="ds1-main">
       <Eswat2Io />
-      <Header title="Auto Dealers" />
+      <Header title="Auto SLD" />
       <ToolBar />
       <Show when={!state.loading} fallback={<Spinner />}>
         <hr
