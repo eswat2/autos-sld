@@ -1,6 +1,6 @@
 {
   "name": "autos-sld",
-  "version": "0.0.578",
+  "version": "0.0.579",
   "description": "",
   "scripts": {
     "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.14",
-    "concurrently": "8.0.1",
+    "concurrently": "8.1.0",
     "fetchql": "3.0.0",
     "postcss": "8.4.24",
     "prettier": "2.8.8",
