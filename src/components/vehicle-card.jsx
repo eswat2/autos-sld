@@ -30,10 +30,10 @@ const VehicleCard = props => {
         isExotic(props.value.year)
           ? 'border-clrs-navy bg-clrs-navy text-clrs-white'
           : isRacing(props.value.model)
-          ? 'border-yellow-600 bg-yellow-300'
-          : isModern(props.value.year)
-          ? 'border-green-600 bg-green-200'
-          : 'border-gray-600 bg-gray-300',
+            ? 'border-yellow-600 bg-yellow-300'
+            : isModern(props.value.year)
+              ? 'border-green-600 bg-green-200'
+              : 'border-gray-600 bg-gray-300',
       )}
     >
       <div class="mr-1.5 flex flex-col">
@@ -47,8 +47,8 @@ const VehicleCard = props => {
           {isExotic(props.value.year)
             ? '- exotic... [ Sierra 117 ]'
             : isRacing(props.value.model)
-            ? '- track only...'
-            : ''}
+              ? '- track only...'
+              : ''}
         </label>
       </div>
       <proto-ikon-loader
