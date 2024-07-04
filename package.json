@@ -1,6 +1,6 @@
 {
   "name": "autos-sld",
-  "version": "0.0.876",
+  "version": "0.0.877",
   "type": "module",
   "description": "",
   "scripts": {
@@ -28,7 +28,7 @@
     "prettier-plugin-tailwindcss": "0.6.5",
     "proto-tailwindcss-clrs": "0.0.335",
     "tailwindcss": "3.4.4",
-    "vite": "5.3.2",
+    "vite": "5.3.3",
     "vite-plugin-solid": "2.10.2"
   },
   "license": "MIT"
