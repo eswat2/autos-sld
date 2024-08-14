@@ -1,6 +1,6 @@
 {
   "name": "autos-sld",
-  "version": "0.0.916",
+  "version": "0.0.917",
   "type": "module",
   "description": "",
   "scripts": {
@@ -17,7 +17,7 @@
     "open": "open https://autos-sld.vercel.app"
   },
   "dependencies": {
-    "solid-js": "1.8.20"
+    "solid-js": "1.8.21"
   },
   "devDependencies": {
     "autoprefixer": "10.4.20",
@@ -26,8 +26,8 @@
     "postcss": "8.4.41",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "0.6.6",
-    "proto-tailwindcss-clrs": "0.0.348",
-    "tailwindcss": "3.4.9",
+    "proto-tailwindcss-clrs": "0.0.349",
+    "tailwindcss": "3.4.10",
     "vite": "5.4.0",
     "vite-plugin-solid": "2.10.2"
   },
