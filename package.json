@@ -17,7 +17,7 @@
     "open": "open https://autos-sld.vercel.app"
   },
   "dependencies": {
-    "solid-js": "1.9.2"
+    "solid-js": "1.9.3"
   },
   "devDependencies": {
     "autoprefixer": "10.4.20",
@@ -28,7 +28,7 @@
     "prettier-plugin-tailwindcss": "0.6.8",
     "proto-tailwindcss-clrs": "0.0.369",
     "tailwindcss": "3.4.14",
-    "vite": "5.4.9",
+    "vite": "5.4.10",
     "vite-plugin-solid": "2.10.2"
   },
   "license": "MIT"
