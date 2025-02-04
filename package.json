@@ -29,7 +29,7 @@
     "proto-tailwindcss-clrs": "0.0.401",
     "tailwindcss": "4.0.3",
     "vite": "6.0.11",
-    "vite-plugin-solid": "2.11.0"
+    "vite-plugin-solid": "2.11.1"
   },
   "license": "MIT"
 }
