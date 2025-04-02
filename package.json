@@ -27,7 +27,7 @@
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.11",
     "proto-tailwindcss-clrs": "0.0.414",
-    "tailwindcss": "4.0.17",
+    "tailwindcss": "4.1.0",
     "vite": "6.2.4",
     "vite-plugin-solid": "2.11.6"
   },
