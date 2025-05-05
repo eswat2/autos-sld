@@ -1,8 +1,11 @@
 {
   "name": "autos-sld",
   "version": "0.0.1160",
-  "type": "module",
   "description": "",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
     "twx": "sh ./.generate",
@@ -28,7 +31,7 @@
     "prettier-plugin-tailwindcss": "0.6.11",
     "proto-tailwindcss-clrs": "0.0.417",
     "tailwindcss": "4.1.5",
-    "vite": "6.3.4",
+    "vite": "6.3.5",
     "vite-plugin-solid": "2.11.6"
   },
   "license": "MIT",
