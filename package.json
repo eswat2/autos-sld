@@ -23,7 +23,7 @@
     "solid-js": "1.9.10"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.22",
+    "autoprefixer": "10.4.23",
     "concurrently": "9.2.1",
     "fetchql": "3.0.0",
     "postcss": "8.5.6",
