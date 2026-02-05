@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.24",
-    "bumpp": "10.4.0",
+    "bumpp": "10.4.1",
     "concurrently": "9.2.1",
     "fetchql": "3.0.0",
     "only-allow": "1.2.2",
