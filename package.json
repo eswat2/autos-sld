@@ -25,7 +25,7 @@
     "solid-js": "1.9.11"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.24",
+    "autoprefixer": "10.4.27",
     "bumpp": "10.4.1",
     "concurrently": "9.2.1",
     "fetchql": "3.0.0",
