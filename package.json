@@ -22,7 +22,7 @@
     "open": "open https://autos-sld.vercel.app"
   },
   "dependencies": {
-    "solid-js": "1.9.11"
+    "solid-js": "1.9.12"
   },
   "devDependencies": {
     "autoprefixer": "10.4.27",
@@ -35,7 +35,7 @@
     "prettier-plugin-tailwindcss": "0.7.2",
     "proto-tailwindcss-clrs": "0.0.480",
     "tailwindcss": "4.2.2",
-    "vite": "8.0.1",
+    "vite": "8.0.2",
     "vite-plugin-solid": "2.11.11",
     "yoctocolors": "2.1.2"
   },
