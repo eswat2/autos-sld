@@ -27,7 +27,7 @@
   "devDependencies": {
     "autoprefixer": "10.5.0",
     "bumpp": "11.1.0",
-    "concurrently": "10.0.0",
+    "concurrently": "10.0.1",
     "fetchql": "3.0.0",
     "only-allow": "1.2.2",
     "postcss": "8.5.15",
@@ -35,7 +35,7 @@
     "prettier-plugin-tailwindcss": "0.8.0",
     "proto-tailwindcss-clrs": "0.0.500",
     "tailwindcss": "4.3.0",
-    "vite": "8.0.14",
+    "vite": "8.0.16",
     "vite-plugin-solid": "2.11.12",
     "yoctocolors": "2.1.2"
   },
