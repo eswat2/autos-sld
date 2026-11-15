@@ -39,6 +39,5 @@
     "vite-plugin-solid": "2.11.16",
     "yoctocolors": "2.2.0"
   },
-  "license": "MIT",
-  "packageManager": "pnpm@12.18.0"
+  "license": "MIT"
 }
