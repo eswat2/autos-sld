@@ -1,10 +1,10 @@
-import { onMount, Show } from 'solid-js';
+import { onSettled, Show } from 'solid-js';
 import { Eswat2Io, Header, ToolBar, Footer, DealerView } from '.';
 import { Spinner } from '../icons';
 import { actions, state, tw } from '../utils';
 
 const ProtoAutos = props => {
-  onMount(async () => {
+  onSettled(() => {
     actions.initApp();
   });
 

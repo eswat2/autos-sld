@@ -1,8 +1,8 @@
-import { createMutable } from 'solid-js/store';
+import { createStore } from 'solid-js';
 import FetchQL from 'fetchql';
 import { bag, DATA, PICK } from './bag';
 
-// --------------------------------------------------------[ mutable store ]
+// --------------------------------------------------------[ store ]
 
 const storeDef = {
   loading: false,
@@ -13,39 +13,56 @@ const storeDef = {
   dealer: undefined,
 };
 
-const state = createMutable(storeDef);
+const [state, setState] = createStore(storeDef);
 
 // --------------------------------------------------------[ processing ]
 
-const processData = next => {
+// NOTE:  in Solid 2.0 a write isn't visible to reads of `state` until the
+// next flush, so these helpers work on the setter's draft (`s`), where reads
+// do see earlier writes, and each action makes all its changes in one draft.
+
+const applyData = (s, next) => {
   if (next) {
-    const { pick } = state;
+    const { pick } = s;
 
     if (pick != undefined) {
-      state.dealer = next.list[pick];
+      s.dealer = next.list[pick];
     } else {
-      state.dealer = undefined;
+      s.dealer = undefined;
     }
 
-    state.id = next.id;
-    state.list = next.list;
-    state.loading = false;
+    s.id = next.id;
+    s.list = next.list;
+    s.loading = false;
   } else {
-    state.id = undefined;
-    state.list = [];
-    state.loading = false;
+    s.id = undefined;
+    s.list = [];
+    s.loading = false;
   }
 };
 
-const processPick = next => {
-  if (state.list && next !== undefined && next < state.list.length) {
-    state.pick = next;
-    state.dealer = state.list[next];
+const applyPick = (s, next) => {
+  if (s.list && next !== undefined && next < s.list.length) {
+    s.pick = next;
+    s.dealer = s.list[next];
   } else {
-    state.pick = 0;
-    state.dealer = undefined;
+    s.pick = 0;
+    s.dealer = undefined;
   }
 };
+
+const applyClear = (s, loading = false) => {
+  s.loading = loading;
+  s.error = undefined;
+  s.id = undefined;
+  s.list = [];
+  s.pick = 0;
+  s.dealer = undefined;
+};
+
+const processData = next => setState(s => applyData(s, next));
+
+const processPick = next => setState(s => applyPick(s, next));
 
 // --------------------------------------------------------[ graphQL ]
 
@@ -81,19 +98,11 @@ const GET_DEALERS = `
 
 // --------------------------------------------------------[ utility ]
 
-const clearStore = (loading = false) => {
-  state.loading = loading;
-  state.error = undefined;
-  state.id = undefined;
-  state.list = [];
-  state.pick = 0;
-  state.dealer = undefined;
-};
+const clearStore = (loading = false) => setState(s => applyClear(s, loading));
 
 // --------------------------------------------------------[ actions ]
 
 const initApp = () => {
-  clearStore();
   // this retrieves the last data we stored in the bag...
   const data = bag.get(DATA);
   const pick = bag.get(PICK);
@@ -101,10 +110,14 @@ const initApp = () => {
   console.log('-- initApp', data, pick);
 
   if (data) {
-    processData(data);
-    if (pick) {
-      processPick(pick);
-    }
+    // clear, load and re-pick in one draft, so the pick sees the new list...
+    setState(s => {
+      applyClear(s);
+      applyData(s, data);
+      if (pick) {
+        applyPick(s, pick);
+      }
+    });
   } else {
     refresh();
   }
