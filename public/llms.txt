@@ -1,0 +1,26 @@
+# auto sld
+
+> Browse car dealers and their vehicles, by Richard Hess, built with Solid 2.0.
+> The data is generated sample data, not real dealers. No accounts.
+
+The page at / is a Solid single-page app and renders nothing useful without
+JavaScript. Use this file instead of scraping it.
+
+## How it works
+
+- Static files on Vercel, built with Vite and `@solidjs/vite-plugin`.
+- Data comes from a GraphQL API at `https://gt-forza.vercel.app/graphql`: a
+  `Uuid` query gets an id, then a `Solution` query gets the dealers and their
+  vehicles for it.
+- Pick a dealer (1–5) to see its vehicles. Refresh loads a new set of dealers.
+- The data and the picked dealer are saved in localStorage and restored on the
+  next visit.
+
+## Source
+
+- [eswat2/autos-sld](https://github.com/eswat2/autos-sld)
+
+## Optional
+
+- [eswat2.dev](https://eswat2.dev): Richard Hess
+- [Solid](https://www.solidjs.com): the framework
