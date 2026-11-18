@@ -7,3 +7,4 @@ export * from './proto-autos';
 export * from './tool-bar';
 export * from './vehicle-card';
 export * from './vehicle-list';
+export * from './solid-badge';

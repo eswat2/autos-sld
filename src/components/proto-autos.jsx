@@ -1,5 +1,5 @@
 import { onSettled, Show } from 'solid-js';
-import { Eswat2Io, Header, ToolBar, Footer, DealerView } from '.';
+import { Eswat2Io, Header, ToolBar, Footer, DealerView, SolidBadge } from '.';
 import { Spinner } from '../icons';
 import { actions, state, tw } from '../utils';
 
@@ -10,6 +10,7 @@ const ProtoAutos = props => {
 
   return (
     <main id="app" class="ds1-main">
+      <SolidBadge offset="1.5rem" />
       <Eswat2Io />
       <Header title="Auto SLD" />
       <ToolBar />

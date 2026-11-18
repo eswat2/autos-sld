@@ -148,4 +148,14 @@ describe('App', () => {
     expect(localStorage.getItem(PICK)).toBe('0');
     expect(JSON.parse(localStorage.getItem(DATA)).id).toBe('id-b');
   });
+
+  it('shows the Solid 2.0 badge', async () => {
+    stubApi('unused', []);
+    localStorage.setItem(DATA, JSON.stringify({ id: 'id-a', list: LIST_A }));
+    await mount();
+    const badge = div.querySelector('a.solid-badge');
+    expect(badge?.textContent).toBe('2.0');
+    expect(badge?.getAttribute('href')).toBe('https://www.solidjs.com');
+    expect(badge?.getAttribute('aria-label')).toBe('Built with Solid 2.0');
+  });
 });
