@@ -23,8 +23,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@solidjs/web": "2.0.1",
-    "solid-js": "2.0.1"
+    "@solidjs/web": "2.0.3",
+    "solid-js": "2.0.3"
   },
   "devDependencies": {
     "@solidjs/vite-plugin": "3.0.1",
