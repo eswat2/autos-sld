@@ -23,8 +23,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@solidjs/web": "2.0.3",
-    "solid-js": "2.0.3"
+    "@solidjs/web": "2.0.4",
+    "solid-js": "2.0.4"
   },
   "devDependencies": {
     "@solidjs/vite-plugin": "3.0.1",
@@ -40,7 +40,7 @@
     "proto-tailwindcss-clrs": "0.0.584",
     "tailwindcss": "4.3.5",
     "vite": "8.3.8",
-    "vitest": "5.1.1",
+    "vitest": "5.1.2",
     "yoctocolors": "2.2.0"
   },
   "license": "MIT"
